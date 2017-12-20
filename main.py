@@ -1,5 +1,3 @@
-from flask import Flask, request
-from caesar import rotate_string
 from caesar import rotate_string
 from flask import Flask, request
 
