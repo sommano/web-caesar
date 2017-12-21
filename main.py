@@ -58,15 +58,7 @@ def encrypt():
     a_text = request.form['text']
     new_text = rotate_string(a_text, a_rot)
 
-    encrypted_text = """
-    <!DOCTYPE html>
-    <html lang="en">
-        <body>
-            <h1>""" + new_text + """
-            </h1>
-        </body>
-    </html>
-    """
+
 
     return form.format(new_text)
 
